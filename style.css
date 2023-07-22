@@ -1,0 +1,290 @@
+
+body{
+   background-color: rgb(34, 34, 37);
+   
+}
+h1{
+    text-align: center;
+}
+h2{
+
+    text-align: center;
+    color: rgb(250, 244, 244);
+    font-family: 'Times New Roman', Times, serif
+
+}
+p{
+  color: rgb(221, 214, 214);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+    text-align: center;
+}
+.social img{
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  margin-left: 20px;
+
+  text-align: center;
+}
+.social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.social img:hover{
+  transition: 1s;
+  width: 80px;
+  height: 80px;
+}
+.nav a{
+font-size: 22px;
+margin: 20px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.nav{
+
+padding-top:0 4%;
+background-color: rgb(1, 1, 1);
+text-align: right;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+.saturno {
+position: absolute;
+left: 50px;
+}
+.saturno :hover{
+  width: 220px;
+  height: 180px;
+  transition: 1s;
+}
+.jupiter {
+  position: absolute;
+  right: 50px;
+  }
+  .jupiter :hover{
+    width: 220px;
+    height: 180px;
+    transition: 1s;
+  }
+  .terra :hover{
+    width: 220px;
+    height: 180px;
+    transition: 1s;
+  }
+.sol {
+  position: absolute;
+  top: 38%;
+  right: 30px;
+}
+
+li{
+    margin: 0 50px 0 50px;
+ width: 250px;
+ padding-top: 30px; 
+ height: 300px;
+    border-radius: 3em;
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+   background-color: rgb(0, 0, 0);
+   border-color: rgb(137, 136, 136);
+    color: rgb(248, 248, 248);
+  }
+
+  .grid{
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 3em;
+  border-style: solid;
+  display: grid;
+  place-items: center;
+ font-size: 22px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ color: rgb(0, 0, 0);
+ border-color: black;
+
+  }
+.grid p{
+font-family: cursive;
+color: rgb(238, 235, 235);
+
+}
+  .imagem{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  li:hover{
+    transition: 1s;
+    width: 350px;
+    height: 300px;
+background-color: transparent;
+border-color: transparent;
+
+
+  }
+  .Animes ul li:hover{
+
+    transition: 1s;
+    width: 350px;
+    height: 300px;
+    background-image: url(https://i.pinimg.com/originals/e4/85/47/e48547efc891357e384dc04efa06e5d2.gif);
+
+  }
+   img{
+  border-style: solid;
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+  border-color: black;
+  
+  }
+  p{
+   text-align: center;
+  }
+  .geral{
+   margin: 50px 30px 50px 30px;
+   display: grid;
+   place-items: center;
+   background-color: rgb(0, 0, 0);
+   border-radius: 3em;
+   background-image: url(https://super.abril.com.br/wp-content/uploads/2019/05/si_403_oraculo_fogoplaneta-1.png?w=1024&resize=1200,800);
+   background-position: bottom;
+  position: relative;
+   background-repeat: no-repeat;
+   background-size: contain;
+
+
+  
+
+  }
+  .grid img{
+  border-style: solid;
+  width: 250px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+
+  border-color: rgb(243, 243, 247);
+  
+  }
+
+
+
+.Animes{
+  margin-top: 50px;
+  margin-bottom: 50px;
+ 
+  border-radius: 2em;
+}
+.livros
+{
+  margin-top: 50px;
+
+}
+.livros li{
+  margin-top: 50px;
+}
+.sobremim{
+
+  width: 100%;
+  background-image: url(https://marketplace.canva.com/EAFYIWPCudg/1/0/1600w/canva-papel-de-parede-para-computador-astronauta-gal%C3%A1xia-preto-e-branco-lKp1cXK1ybY.jpg);
+ 
+}
+.lightmode{
+
+  background-color: rgb(244, 244, 244);
+}
+.sobre{
+  background-color: rgb(248, 248, 248);
+  width: 100%;
+  background-image: url(https://png.pngtree.com/background/20230409/original/pngtree-sky-fantasy-clouds-white-picture-image_2373600.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  border: 5px;
+ 
+ 
+}
+
+.geralnovo{
+background-color: rgb(247, 239, 239);
+background-image: url(https://www.arquiprojeto.art.br/wp-content/uploads/2021/05/1_38_ggh7VMS88m1a2e4JjXQ-scaled.jpeg);
+border-color: black;
+
+
+}
+
+.planetas2{
+display: none;
+
+}
+.novafonte h2{
+  color: black;
+
+}
+button{
+  border-radius: 8em;
+  border-color: rgb(5, 5, 7);
+
+  width: 80px;
+  height: 80px;
+  background-color: rgb(245, 230, 230);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left: 130px;
+
+}
+button:hover{
+  width: 100px;
+  height: 100px;
+cursor: grab;
+transition: 1s;
+font-size: 16px;
+}
+.buttonnovo{
+ background-color: black;
+ color: white;
+}
+.jogos
+{
+  margin-top: 5%;
+}
+
+.novosobre p{
+  color: black;
+}
+.novosobre h2{
+  color: black;
+}
+.github{
+  display: grid;
+  place-items: center;
+  align-items: center;
+    justify-content: center;
+    text-align: center ;
+    color:black
+}
+.github img:hover{
+transition: 2s;
+width: 250px;
+height: 190px;
+color: blue;
+}
+.gitshubs{
+  border-color: black;
+  border-radius: 2em;
+  border-style: solid;
+}
