@@ -219,6 +219,12 @@ border-color: transparent;
  
  
 }
+.sobre p{
+  color: black;
+}
+.sobre h2{
+  color: black;
+}
 
 .geralnovo{
 background-color: rgb(247, 239, 239);
